@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_buy_price_in_BRL__c</fullName>
+    <externalId>false</externalId>
+    <label>Total buy price in BRL</label>
+    <summarizedField>Crypto_asset__c.Buy_Price_BRL__c</summarizedField>
+    <summaryForeignKey>Crypto_asset__c.Cryptocurrency__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
